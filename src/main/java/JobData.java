@@ -102,8 +102,6 @@ public class JobData {
             for (String jobTrait : row.keySet()) {
                 String jobValue = row.get(jobTrait);
 
-                System.out.println(jobTrait);
-
                 if (jobValue.toLowerCase().contains(value.toLowerCase())) {
                     jobs.add(row);
 

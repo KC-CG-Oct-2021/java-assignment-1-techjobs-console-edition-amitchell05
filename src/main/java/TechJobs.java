@@ -127,7 +127,7 @@ public class TechJobs {
                 for(Map.Entry<String, String> jobDetails : job.entrySet()) {
                     System.out.printf("%s: %s\n", jobDetails.getKey(), jobDetails.getValue());
                 }
-                System.out.println("*****");
+                System.out.println("*****\n");
             }
         } else {
             System.out.println("No jobs were found.");

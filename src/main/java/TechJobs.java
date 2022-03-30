@@ -130,7 +130,7 @@ public class TechJobs {
                 System.out.println("*****\n");
             }
         } else {
-            System.out.println("No jobs were found.");
+            System.out.println("No Results");
         }
 
     }

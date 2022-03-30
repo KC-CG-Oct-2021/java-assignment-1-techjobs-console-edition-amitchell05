@@ -122,12 +122,12 @@ public class TechJobs {
 
         if (someJobs.size() > 0) {
             for (HashMap<String, String> job : someJobs) {
-                System.out.println("*****");
+                System.out.println("\n*****");
 
                 for(Map.Entry<String, String> jobDetails : job.entrySet()) {
                     System.out.printf("%s: %s\n", jobDetails.getKey(), jobDetails.getValue());
                 }
-                System.out.println("*****\n");
+                System.out.println("*****");
             }
         } else {
             System.out.println("No Results");
